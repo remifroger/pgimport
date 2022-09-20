@@ -2,6 +2,12 @@
 
 Importe dans une base un schéma d'une BDD PostgreSQL l'ensemble des fichiers CSV et SHP d'un dossier.
 
+Nécessite l'installation de QGIS (ogr2ogr) et PostgreSQL (psql).
+
+## Pré-requis
+
+Remplir les variables d'environnement (.env).
+
 ## Usage
 
 ```
@@ -14,4 +20,4 @@ Par exemple, la commande ci-dessous va importer l'ensemble des CSV et SHP du dos
 python main.py "C:\Users\frog\OneDrive - Projet\data\tests" schema_import
 ```
 
-Attention, bien veillez à mettre le chemin du dossier entre guillemets.
+Attention, bien veiller à mettre le chemin du dossier entre guillemets.
