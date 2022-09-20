@@ -13,3 +13,5 @@ Par exemple, la commande ci-dessous va importer l'ensemble des CSV et SHP du dos
 ```
 python main.py "C:\Users\frog\OneDrive - Projet\data\tests" schema_import
 ```
+
+Attention, bien veillez à mettre le chemin du dossier entre guillemets.
