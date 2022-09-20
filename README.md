@@ -1,5 +1,7 @@
 # pgimport
 
+Versions : testé sur Python 2.7.X et Python 3.10.X
+
 Importe dans une base un schéma d'une BDD PostgreSQL l'ensemble des fichiers CSV et SHP d'un dossier.
 
 Nécessite l'installation de QGIS (ogr2ogr) et PostgreSQL (psql).
